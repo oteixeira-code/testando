@@ -1,3 +1,8 @@
 Tela de Pagamento
 
-Botão: Pagar com Cartão
+flag_pagamento_pix = false
+
+SE flag_pagamento_pix = true
+  Mostrar: Botão Pagar com Pix
+SENAO
+  Mostrar: Botão Pagar com Cartão
